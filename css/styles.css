@@ -168,3 +168,11 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.container {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 141px;
+  margin-right: 141px;
+}

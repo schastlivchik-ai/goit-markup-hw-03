@@ -4,33 +4,53 @@ body {
   color: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
 }
+
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-  }
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .span-header {
   color: #2e2f42;
 }
+
 .span-footer {
   color: #f4f4fd;
 }
+
 .logo:hover span,
 .logo:focus span {
   color: #404bbf;
 }
+
 a:hover,
 a:focus {
   color: #404bbf;
@@ -44,19 +64,23 @@ a:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
 }
+
 .contacts {
-    color:#434455;
-    
+  color: #434455;
+
 }
+
 .solutions {
   background-color: #2e2f42;
 }
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -65,6 +89,7 @@ a:focus {
   text-align: center;
   color: #fff;
 }
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -73,6 +98,7 @@ a:focus {
   text-align: center;
   color: #2e2f42;
 }
+
 .head {
   font-weight: 500;
   font-size: 20px;
@@ -80,13 +106,16 @@ a:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team .head {
   text-transform: capitalize;
 }
+
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .button {
   font-weight: 500;
   line-height: 1.5;
@@ -95,32 +124,41 @@ a:focus {
   background: #4d5ae5;
   cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
+
 .team {
   background-color: #f4f4fd;
 }
+
 .team .title {
   text-transform: capitalize;
 }
+
 .team .head {
   text-align: center;
 }
+
 .team .text {
   text-align: center;
   font-size: 16px;
 }
+
 .empl-box {
   background-color: #fff;
 }
+
 .portfolio .title {
   text-transform: capitalize;
 }
+
 .footer {
   background-color: #2e2f42;
 }
+
 .text-footer {
   color: #f4f4fd;
   line-height: 1.5;

@@ -93,7 +93,8 @@ a:focus {
 .navigation-list,
 .header .container,
 .solutions .container,
-.about-us-list {
+.about-us-list,
+.team-list {
   display: flex;
 }
 
@@ -216,17 +217,35 @@ a:focus {
   padding: 120px 15px;
 }
 
-.about-us-list {
-  gap: 24;
-
+.about-us-list,
+.team-list {
+  gap: 24px;
+  justify-content: center;
 }
 
-.about-us .item {
-  width: calc((100% - 72px) / 4);
-}
 
 .about-us h2 {
   display: none;
+}
+
+.team .container {
+  padding: 120px 15px;
+}
+
+.team .title {
+  margin-bottom: 72px;
+}
+
+.empl-box {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 32px;
+}
+
+.team-list .head {
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .footer {

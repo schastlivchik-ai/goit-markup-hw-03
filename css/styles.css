@@ -94,7 +94,8 @@ a:focus {
 .header .container,
 .solutions .container,
 .about-us-list,
-.team-list {
+.team-list,
+.portfolio-list {
   display: flex;
 }
 
@@ -246,6 +247,32 @@ a:focus {
 .team-list .head {
   margin-top: 32px;
   margin-bottom: 8px;
+}
+
+.portfolio-list {
+  flex-wrap: wrap;
+  gap: 48px 24px;
+
+}
+
+.portfolio .container {
+  padding: 120px 15px;
+}
+
+.portfolio .title {
+  margin-bottom: 72px;
+}
+
+.portfolio-list .item {
+  width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
+  box-sizing: border-box;
+
+}
+
+.portfolio-list img {
+  object-fit: contain;
+
 }
 
 .footer {

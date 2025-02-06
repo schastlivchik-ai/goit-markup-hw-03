@@ -61,11 +61,11 @@ a:focus {
 }
 
 .container {
-  max-width: 1158;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -263,6 +263,14 @@ a:focus {
   margin-bottom: 72px;
 }
 
+.portfolio .head {
+  margin: 32px 0 8px 16px
+}
+
+.portfolio .text {
+  margin: 0 0 32px 16px
+}
+
 .portfolio-list .item {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
@@ -270,17 +278,23 @@ a:focus {
 
 }
 
-.portfolio-list img {
-  object-fit: contain;
-
-}
 
 .footer {
   background-color: #2e2f42;
+
 }
+
+.footer .container {
+  padding: 100px 15px;
+
+  margin: 0 141px
+}
+
 
 .text-footer {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 16px;
 }

@@ -40,6 +40,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .span-header {
@@ -62,8 +63,7 @@ a:focus {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 
@@ -79,6 +79,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0
 }
 
 .address-list {
@@ -109,7 +110,7 @@ a:focus {
 }
 
 .navigation {
-  gap: 76px;
+  align-items: center;
 }
 
 .navigation-list,
@@ -124,6 +125,7 @@ a:focus {
 
 .solutions {
   background-color: #2e2f42;
+  padding: 188px 0
 }
 
 .solutions .container {
@@ -170,6 +172,7 @@ a:focus {
 }
 
 .button {
+  min-width: 169px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -180,6 +183,7 @@ a:focus {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
 
 }
 
@@ -224,13 +228,33 @@ a:focus {
   justify-content: center;
 }
 
+.about-us {
+  padding: 120px 0;
+}
 
-.about-us h2 {
-  display: none;
+.about-us-list .item {
+  width: calc((100% - 72px) / 4);
+}
+
+.about-us .head {
+  margin-bottom: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .team .container {
-  padding: 120px 15px;
+  padding: 120px 0;
 }
 
 .team .title {
@@ -244,9 +268,17 @@ a:focus {
   padding-bottom: 32px;
 }
 
+.empl-card {
+  padding: 32px 0
+}
+
 .team-list .head {
   margin-top: 32px;
   margin-bottom: 8px;
+}
+
+.portfolio {
+  padding: 120px 0 120px 0
 }
 
 .portfolio-list {
@@ -264,7 +296,7 @@ a:focus {
 }
 
 .portfolio .head {
-  margin: 32px 0 8px 16px
+  margin-bottom: 8px;
 }
 
 .portfolio .text {
@@ -278,10 +310,20 @@ a:focus {
 
 }
 
+.app-card {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0
+}
 
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .container {
